@@ -1,0 +1,27 @@
+{
+    "cSpell.words": [
+        "canvote",
+        "computeaverage",
+        "coting",
+        "innmemory",
+        "rewari",
+        "srategy",
+        "variableradius"
+    ]
+}
+
+{
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black"
+    }
+}
+
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.python",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black"
+    },
+    "python.formatting.provider": "black"
+}
