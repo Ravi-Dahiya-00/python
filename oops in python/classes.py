@@ -63,6 +63,7 @@ data2 = course("MBA",2,"Ravi")
 '''
 if we are declaring constructor . so we have to remember that which parameters we are providing to __init__
 we have to provide the value of all the parameters while calling that class'''
+#constructor : through which we can pass data whenever the object of that class is declared or created.
 
 
 print(data1.course_name)
