@@ -70,6 +70,8 @@ Functions vs Methods
               
             Function is generally available for everyone and anyone can call it.
             Method is a function that is particularly defined in class and only the object of that class can access it. '''
+            
+            
 
 def my_skills1():
     print("we can access it directly by calling the function")
@@ -123,15 +125,59 @@ class course:
         self.course_name= course_name
         self.duration= duration
         self.mentor= mentor
-
+    def show_mentor(self):
+            print(f"mentor name is {self.mentor}")
+            
+            
         # here self is a pointer and we have made 3 variables here.
-        ''' __init__ is a inbuilt variable it work is to provide data this is called as a constructor.
+''' __init__ is a inbuilt variable it work is to provide data this is called as a constructor.
         it will provide data to class
         
         constructor is a special method in which the code automatically executes when the object of that class is made.
+        
+        __init__ is a magic method. if in the starting we have __ and at end also we have __ so this magic method for python.
+        these are automatically called , these are not called by any any object.
+        
+        
+        here constructor is called when a object is being created.
+        
+        like in the below example we have all the methods of data1 to call but do not have the method to call the constructor.
+        because user is not having the control or button to constructor.
+        
+        in constructor we will write that code when we do not want to rely on the user for some task ,
+        we will do it automatically.
+        
+        like to connect to gps,location,internet in any app without asking user because these are necessary task to run our app,
+        when user will open the app the constructor code automatically runs.
+          
         '''
-    def show_mentor(self):
-        print(f"mentor name is {self.mentor}")
+        
+'''
+self :
+    everything in python is object so self must also be a object.
+    if we will see id(self) and id(data1) these will be same means :
+                            data1 is self.
+                            data1 hi self hai
+                            
+    
+    self address will change every time for different data.
+    
+    conclusion:
+            with that object currently we are working that is self.
+            
+    why self is required??
+    when we call something like data1.course_name() it takes data1 as an argument,
+    but in real we have not provided any argument to it , so in the place of self data1 will be passed ,
+    so self is required.
+    
+            
+'''
+    
+'''
+in class data and methods can only be accessed by object,means one method also can not access any method from that class. 
+
+so we need a object for it , when the object is taking data1.course_name it is taking through self.
+    '''
 
 data1 = course("CSE",4,"Devansh")
 data2 = course("MBA",2,"Ravi")
