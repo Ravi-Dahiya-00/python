@@ -21,7 +21,7 @@ class example :                  #here class is to define class and example is t
 
 
 
-# basic structure of Class
+#basic structure of Class
 
 class Car :
     color="blue"               #data
@@ -83,7 +83,7 @@ my_skills1()
 # first we to create the variable of the class and then access that  variable.
 
 class my_class :
-    class_var = "this is without function"
+    class_var = "this is without function so this called as data"
     def welcome_msg1(self):
         print("welcome to oops")
 # while writing a function in a class we have to assign a pointer or a reference
@@ -100,8 +100,8 @@ b = my_class()
 n= my_class()
 # we can make unlimited variables. 
  
-b.welcome_msg1()
-b.class_var
+print9=(b.welcome_msg1())
+print(n.class_var)
 # this () is used only while calling something like function.
 a = 10
 # in this a is variable or instance or a object of a integer class .
