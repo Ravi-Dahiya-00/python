@@ -4,7 +4,7 @@
 ''' object is always of a class.
 
   in python , data type is a class 
-            and the variable of that data type is a object  of that class .'''
+            and the variable of that data type is a object of that class .'''
 L=[1,2,3,4]                   #this L is a object of the (List) class.
  
  
@@ -46,9 +46,9 @@ making a class
    Attributes
    Methods
    
-   in general method is data so it is private on;y to the class.    representation(-)
+   in general method is data so it is private only to the class.    representation(-)
    methods are public to the whole code.     representation(+)'''
-   
+    
    
 '''
  Object is an Instance of the Class.
@@ -65,8 +65,8 @@ making a class
 Functions vs Methods
            1. methods are the special function thar are written inside the class.
             
-           2. len(L)        this is a normal function anyone can use this function
-              L.append(1)    this append is the function that is defined under the List class.
+           2. len(L)        this is a normal function anyone can use this function.
+              L.append(1)    this append is the function that is defined under the  class List.
               
             Function is generally available for everyone and anyone can call it.
             Method is a function that is particularly defined in class and only the object of that class can access it. '''
@@ -91,11 +91,11 @@ class my_class :
 # It represents the instance of the class itself and allows access to its attributes and other methods
 # self is not a keyword this is used by python community
  
-b = my_class()    
+b = my_class()
 # this b is variable.
 # this is called as instance or object of my_class class.
 # by this we can access anything from the function.
-# without making object we cannot access anything.
+# without making object we can not access anything.
 
 n= my_class()
 # we can make unlimited variables. 
@@ -103,8 +103,10 @@ n= my_class()
 print9=(b.welcome_msg1())
 print(n.class_var)
 # this () is used only while calling something like function.
+
+
 a = 10
-# in this a is variable or instance or a object of a integer class .
+# in this a is variable or instance or a object of a integer class.
 
 
 
@@ -130,7 +132,8 @@ class course:
             
             
         # here self is a pointer and we have made 3 variables here.
-''' __init__ is a inbuilt variable it work is to provide data this is called as a constructor.
+''' 
+    __init__ is a inbuilt variable it work is to provide data this is called as a constructor.
         it will provide data to class
         
         constructor is a special method in which the code automatically executes when the object of that class is made.
@@ -138,7 +141,7 @@ class course:
         __init__ is a magic method. if in the starting we have __ and at end also we have __ so this magic method for python.
         these are automatically called , these are not called by any any object.
         
-        
+         
         here constructor is called when a object is being created.
         
         like in the below example we have all the methods of data1 to call but do not have the method to call the constructor.
@@ -158,8 +161,8 @@ self :
     if we will see id(self) and id(data1) these will be same means :
                             data1 is self.
                             data1 hi self hai
-                            
-    
+   
+   
     self address will change every time for different data.
     
     conclusion:

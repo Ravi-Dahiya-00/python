@@ -33,8 +33,8 @@ print(5+2*3-1+10/5)
 #which will come first it will be operated first.
 #in that first               multiplication  >>  division  >>  addition  >>  subtraction
 
- 
 
+ 
 
 
 #the best way is to use parenthesis after every operator it will be time consuming but give less errors.

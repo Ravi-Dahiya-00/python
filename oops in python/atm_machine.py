@@ -5,6 +5,7 @@ class Atm :
     def __init__(self):
         self.pin=""
         self.balance=0  
+        
         print(id(self))
         
         self.menu()
@@ -26,13 +27,18 @@ class Atm :
             self.withdraw()
         elif user_input==4:
            self.check_balance()
-        else:
-            print("exit")
+        elif user_input==5:
+            self.exit()
+
+            
+            
         
     
     def create_pin(self):
         self.pin = input("Enter your pin :")
         print("pin set successfully")
+        
+        self.menu()
         
     def deposit(self):
         pin_check=input("enter your pin")
@@ -42,6 +48,8 @@ class Atm :
             print("Deposit Successful")
         else :
             print("invalid PIN")
+            
+        self.menu()
         
     print(id(deposit))
     def withdraw(self):
@@ -56,12 +64,21 @@ class Atm :
         else:
             print("invalid PIN")
         
+        self.menu()
+        
+        
+        
     def check_balance(self):
         pin_check=input("enter your pin")
         if pin_check==self.pin:
             print(self.balance)
         else:
             print("invalid PIN")
+            
+        self.menu()
+    
+    def exit(self):
+        print("thankyou visit again")
     
 sbi=Atm()   
-sbi
+# sbi

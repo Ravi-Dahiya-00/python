@@ -4,11 +4,11 @@
 The default number of decimals is 0, meaning that the function will return the nearest integer.'''
 
 
-print(round(7))          #no change because it is int. no decimal place is present.
-print(round(7,2))        #no change because there is no decimal as it can round off upto 2 points.
-print(round(7.61))       #convert it to the nearest int , nearest int of 7.61 is 8
-print(round(2.66666,2))        #this 2 is used to define the last digit of round off this will give 2.67
-print(round(2.6657,0))         #this will round off upto o decimal place
+print(round(7))                 #no change because it is int. no decimal place is present.
+print(round(7,2))               #no change because there is no decimal as it can round off upto 2 points.
+print(round(7.61))              #convert it to the nearest int , nearest int of 7.61 is 8
+print(round(2.66666,2))         #this 2 is used to define the last digit of round off this will give 2.67
+print(round(2.6657,0))          #this will round off upto o decimal place
 
 
 # when .5 is present in last , in python it will return nearest even number
