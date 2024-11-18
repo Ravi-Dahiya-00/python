@@ -2,12 +2,40 @@
 
 class Atm :
     
+    counter=1          #static/class variable 
+    
+    
     def __init__(self):
         self.pin=""
         self.balance=0  
         
+        
+        Atm.__counter+=1
+        
         print(id(self))
         
+
+    @staticmethod
+    def get_counter():
+        return Atm.__counter
+    
+    @staticmethod                                                      #this signify's that to run these functions we does not require any objects
+    def set_counter(new):
+        if type(new)==int:
+             Atm.__counter=new
+        else:
+            print("only int objects are allowed.")
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    
+    
         self.menu()
     
     def menu(self):

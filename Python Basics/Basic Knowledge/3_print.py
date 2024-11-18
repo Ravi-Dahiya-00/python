@@ -1,20 +1,21 @@
 #for writing any line in the code
 #we use print and close bracket and double cot and single cot write our statement
 print("hello")
+
 print('hello world')
 
 
 #it is very sensitive language.
 #don't use greater letter in PRINT like this it will show error.
 
-#Print("hello world")               #it is wrong method.
+# Print("hello world")               #it is wrong method.
 
 
 
 
 print("welcome to python")
 print("python is fun")
-print('problem driven')
+print('problem driven',"hello world")
 
 
 

@@ -130,6 +130,9 @@ print(
 
 
 #assignment operator
+
+
+
 a=5
 a=a+2
 a+=2       #it is same as a=a+2
@@ -554,3 +557,5 @@ print('hello' in list)            #true
 print(10 in list)                 #true
 print(4 not in list)              #true because for is not present in list
 print(8 in list)                  #false
+
+

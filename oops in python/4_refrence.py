@@ -38,7 +38,9 @@ def greet(customer):
         
     cust2=Customer("Ravi","Male")
     return cust2
-cus = Customer("Amit","Male")
+
+
+cus = Customer("Anita","FeMale")
 new_cust=greet(cus)
 
 print(new_cust)
@@ -87,3 +89,44 @@ print(cust.name)
 # L1[:] 
 
 # mutable will change and immutable will not change.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# pass by collection of objects 
+
+class Customer:
+    
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+        
+    def intro(self):
+        print(f"my name is {self.name},my age is {self.age}")
+    
+c1=Customer("Ravi",18)
+c2=Customer("amit",24)
+c3=Customer("sumit",31)
+
+list1=[c1,c2,c3]
+
+
+for i in list1:
+    i.intro()
+
+# we can pass only immutable data types here we cannot pass mutable data types.
+    

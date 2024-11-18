@@ -40,7 +40,7 @@ class Atm :
         return "cannot change the balance"    
     
 '''these above all is called encapsulation in python 
-    we are doing same thing giving option to other programmer to change the data bu by encapsulation method we are giving some condition 
+    we are doing same thing giving option to other programmer to change the data but by encapsulation method we are giving some condition 
         that will make our code to save from crashes like we have put a condition the pin should be in the the string only.
         
     and in the new function we have made a function to get balance but we made another function to change the balance and here
@@ -55,7 +55,11 @@ sbi.__balance="gvt"
         but if we will update like this sbi._Atm__balance then our code will crash.
         
             conclusion : 
-                    nothing in python is truly private.''' 
+                    nothing in python is truly private.
+                    
+                python community said this language is made for senior programmers.
+                
+                                                                    ''' 
                     
                     
                     
@@ -74,6 +78,6 @@ sbi.__balance="gvt"
     when we are making a variable of sbi=Atm() we say sbi as a object but this statement is not correct 
     
     here sbi is a reference and Atm() is the object and sbi is addressing on the Atm() where actual address is present.
-    
+     
     conclusion : 
             while making a object where we store the object in any variable this variable is called as the reference variable.'''

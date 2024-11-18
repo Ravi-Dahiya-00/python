@@ -4,6 +4,7 @@
 
 #example of user input
 a = input('enter your name:')
+# a=input()
 print("my name is",a)
 X=input("enter first number:")
 Y=input("enter second number:")
@@ -61,3 +62,4 @@ average=(number1+number2+number3)/3
 print("the average of",number1,number2,number3,"is",     #python will find end parenthesis in the end of line.
       average)                                           #if it does not find it will scan next line automatically.
                                                          #because it knows that line has not ended here.
+                                                         

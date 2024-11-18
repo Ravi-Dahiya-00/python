@@ -15,8 +15,8 @@
 #some special characters used in python name with their use
 #character      #name                                       #description
 
-#()             #parentheses                                #used with functions.
-# #             #pound sign                                 #used for comments.
-# ""           #double quotation marks                     #enclose a string.
+#()             #parentheses                                  #used with functions.
+# #             #pound sign                                  #used for comments.
+# ""           #double quotation marks                        #enclose a string.
 # '   '           #single quotation marks                     #enclose a string.
 #'''  '''        #triple single quotation marks               #used for multiline comments.
