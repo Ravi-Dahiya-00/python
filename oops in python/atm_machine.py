@@ -110,3 +110,15 @@ class Atm :
     
 sbi=Atm()   
 # sbi
+
+list1=[]
+for i in range(1,11):
+    list1.append(i)
+    
+
+
+list2=[1,2,3,4,5,6,8,9,10]
+
+for i in list1:
+    if i not in list2:
+        print(i)

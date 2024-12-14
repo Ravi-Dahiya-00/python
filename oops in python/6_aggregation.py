@@ -8,4 +8,4 @@
 '''
     product ---> smartphone.
     
-    if smartphone requires the product class , that is aggregation '''
+    if smartphone requires the product class , that is aggregation. '''
