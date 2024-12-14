@@ -108,6 +108,11 @@ def run_alexa():
     else:
         print('Sorry, I did not get that')
         talk('Sorry, I did not get that')
+        print("sorry can you speak again")
+
+
+
+
 
 
 while True:     
