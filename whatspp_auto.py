@@ -1,3 +1,3 @@
 import pywhatkit
 
-pywhatkit.sendwhatmsg('+917970597101','hii',10,7)
+pywhatkit.sendwhatmsg('+919050820015','hii',20,29)
