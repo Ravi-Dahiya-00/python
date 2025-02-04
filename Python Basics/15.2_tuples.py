@@ -69,7 +69,7 @@ b=34
 v=34
 d=13
 
-t=a,b,v,d                   #packi+ng a tuple
+t=a,b,v,d                   #packing a tuple
 print(t)              
 
 
@@ -78,7 +78,7 @@ t=(10,34,2,23)
 a,b,c,d=t
 # print(t(a,b,c,d))
 
-a=eval(input("enter numbes:" ))
+a=eval(input("enter numbers:" ))
 print(a)
 l=len(a)
 sum=0
@@ -101,4 +101,4 @@ for i in a:
 
 #tuple objects can be used as key for dictionaries because key should be hashable and immutable
 #if content is fixed and can never be changed we should go for tuples.
-#tuples objects are immutable we can create  tuple objects we cannot change its content\
+#tuples objects are immutable we can create  tuple objects we cannot change its content

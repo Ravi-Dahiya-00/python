@@ -83,7 +83,7 @@ print(a * 3)  # [1, 2, 3, 1, 2, 3, 1, 2, 3]
 print(all([' ', ',', '1', '2']))
 True
 
-# 2. any(): Returns True if atleast one item in the list has a true value.
+# 2. any(): Returns True if at least one item in the list has a true value.
 print(any([' ', ',', '1', '2']))
 True
 
@@ -104,8 +104,8 @@ print(min([1, 2, 3, 4, 5]))
 1
 
 # 7. sorted(): Returns a sorted version of the given list, leaving the original list unchanged.
-origlist = [1, 5, 3, 4, 7, 9, 1, 27]
-print(sorted(origlist)
+orig_list = [1, 5, 3, 4, 7, 9, 1, 27]
+print(sorted(orig_list))
 [1, 1, 3, 4, 5, 7, 9, 27]
 
 # 8. sum(): Returns the sum of all the elements of a list. It works only on an integer list.

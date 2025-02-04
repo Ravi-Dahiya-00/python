@@ -18,7 +18,7 @@ print(
 )  #it will not add the numbers because these are string and these are printed in a line.
 print(
     int(a) + int(b)
-)  # A and B are string and these are converted into ineger by using int() function.
+)  # A and B are string and these are converted into integer by using int() function.
 
 
 
@@ -37,7 +37,7 @@ print(type(length))    #int value
 new_length=str(length)
 print(type(new_length))
 
-#for conerting into different data types we have different types.
+#for converting into different data types we have different types.
 #1. float()
 #2.str()
 #3.int()
@@ -51,7 +51,7 @@ print(10+float(10))
 
 #what is implicit type casting????
 #data types in python do not have the same level i.e. ordering of data types is not the same in python.
-#some of the data types have higher order and some have lower order.while performing any operation on varibles with different data types in python ,
+#some of the data types have higher order and some have lower order.while performing any operation on variables with different data types in python ,
 #one of the variable data types will be changed to the higher data type.
 #according to the level,one data type is converted into other by the python interpreter itself(automatically) in the background.
 #this is called implicit type casting in python.

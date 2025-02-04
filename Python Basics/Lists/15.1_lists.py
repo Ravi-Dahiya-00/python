@@ -160,7 +160,7 @@ print(list[::3])      #it will do complete this thing with complete list
 
 
 
-list.sort()           #conver in asscending order
+list.sort()           #convert in ascending order
 print(list)
 
 

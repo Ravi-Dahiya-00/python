@@ -117,7 +117,8 @@ print(x != y)    # Returns: True
 
 
 
-# Aliasing occurs when a list is assigned to another variable, making both point to the same memory location. This leads to the same list being referenced by different names, causing changes from one reference to affect the other.
+''' Aliasing occurs when a list is assigned to another variable, making both point to the same memory location. 
+This leads to the same list being referenced by different names, causing changes from one reference to affect the other.'''
 
 
 

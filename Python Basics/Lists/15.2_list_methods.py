@@ -2,7 +2,7 @@
 
 
 
-# 1. append(): Adda a single item at the end of the list.
+# 1. append(): Add a single item at the end of the list.
 
 x = ['a', 'b', 'c', 'd']
 x.append('e')

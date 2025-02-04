@@ -165,7 +165,7 @@ list_len(vowels)
 
 
 
-3#usd to inr converter
+#usd to inr converter
 
 def usd_inr(usd):
     usd_inr=usd*83

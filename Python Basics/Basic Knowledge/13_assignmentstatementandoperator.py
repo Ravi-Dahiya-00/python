@@ -58,7 +58,7 @@ i=j=k=1
 #computeaveragewithsimultaneousassignment.py
 
 #prompt the user to enter three numbers
-number1,number2,number3=eval(input("enter three numbers seperated by commas:"))
+number1,number2,number3=eval(input("enter three numbers separated by commas:"))
 
 
 #compute average

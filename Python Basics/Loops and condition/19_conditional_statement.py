@@ -5,6 +5,7 @@
 
 #it can also be written as
 #if(height>3):
+height=int(input())
 if height>3:
     print("buy Token")
     print("now you can in metro")

@@ -265,11 +265,12 @@ print(myset)       # Result: set()
 print(type(myset)) # <class 'set'>
 
 
-#
+
 # 2. Another way to create a set is to put all elements inside curly braces separated by commas.
 myset1 = {1, 2, 3} 
 print(myset1)       # Result: {1, 2, 3}
 print(type(myset1)) # Result: <class 'set'>
-# Note : Empty curly braces { } does not make an empty set in Python, it makes an empty dictionary instead. Dictionary data type is introduced in the upcoming lessons.
+'''Note : Empty curly braces { } does not make an empty set in Python, 
+it makes an empty dictionary instead. Dictionary data type is introduced in the upcoming lessons.'''
 test = { } 
 print(type(test)) #Result: <class 'dict'>

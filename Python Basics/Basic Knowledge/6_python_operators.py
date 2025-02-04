@@ -278,6 +278,8 @@ print(not(a))    #print true.
 
 
 
+
+
 #decimal to binary.
 
 #convert 16 to binary
