@@ -1,0 +1,26 @@
+Let's learn about the list of functions that can be applied to a dictionary:
+
+
+
+all():
+It returns True if all the keys of a dictionary are true, else returns False.
+dict1 = {1:'alpha', 2:'beta', 3:'gamma', 4:'music'}
+print(all(dict1)) # Result: True
+dict2 = {1:'alpha', 2:'', '':'gamma', 4:'music'}
+print(all(dict2)) # Result: False
+
+any():
+It returns True if atleast a single key of a dictionary is True else False.
+dict2 = {1:'alpha', 2:'', '':'gamma', 4:'music'}
+print(any(dict2)) # Result: True
+
+len():
+It calculates the length of the dictionary i.e., the number of key: value pairs.
+dict1 =  {1:'alpha', 2:'beta', 3:'gamma', 4:'music'}
+print(len(dict1)) # Result: 4
+
+sorted():
+It returns a sorted list of dictionary's keys.
+dict1 =  {2:'alpha', 3:'beta', 1:'gamma', 4:'music', 6:'video'}
+sortlist = sorted(dict1)
+print(sortlist) # Result: [1, 2, 3, 4, 6]

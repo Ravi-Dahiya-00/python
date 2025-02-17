@@ -1,0 +1,122 @@
+Given an input string a = "hello python", now understand the working principles of the following methods:
+
+
+
+1) capitalize() - Capitalizes first letter of a string.
+
+print(a.capitalize())    # Result: Hello python
+
+
+2) upper() - Converts the string to uppercase.
+
+print(a.upper())         # Result: 'HELLO PYTHON'
+
+
+3) lower() - Converts the string to lowercase.
+
+print(a.lower())         # Result: 'hello python'
+
+
+4) title() - Converts the string to title case. i.e., first characters of all the words of string are capitalized.
+
+print(a.title())         # Result: 'Hello Python'
+
+
+5) swapcase() - Swap the case of characters. i.e., lowercase into uppercase and vice versa.
+
+print(a.swapcase())      # Result: 'HELLO PYTHON'
+
+
+6) split() function returns a list of words separated by space.
+
+print(a.split())         # Result: ['hello', 'python']
+
+
+7) center(width,"fillchar") Center the string within a specified width using a fill character. Observe the below example:
+
+print(a.center(20, '*'))   # Result: '****hello python****'
+Here, width is 20 and string length is 12, so now we need to fill the remaining width(20 - 12 = 8) with '*' special
+
+character.
+
+
+﻿﻿﻿﻿Consider an input string a = "hello happy birthday happy birthday life is happy", let's understand the working principles of the following methods:
+
+
+
+8) count(substring) - Returns the count of occurrences of the substring in a string. If the substring does not exist, it returns zero.
+
+print(a.count('happy'))     # Result: 3 (happy word occurred 3 times)
+
+
+9) replace(old, new) - Replace all occurrences of old substring with new substring. If the old substring does not exist, no modifications will be done.
+
+print(a.replace('happy' ,'joyful'))   # Result: 'hello joyful birthday joyful birthday life is joyful' 
+
+
+10) join(iterable) - Concatenate the elements of the iterable using the string as the separator. (“L1” is iterable in the below example.)
+
+b = '.'
+L1 = ["www", "codetantra", "com"]
+print(b.join(L1))    # Concatenates each item in the list with '.' Result: 'www.codetantra.com'
+
+
+
+
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿Python provides the following built-in string methods (operations that can be performed with string objects). Syntax to execute these methods is: stringobject.methodname()
+
+
+
+11) isupper() - Checks if all characters in the string are uppercase or not. If yes returns True, otherwise False.
+
+
+
+12) islower() - Checks if all characters in the string are lowercase or not. If yes returns True, otherwise False.
+
+
+
+13) isalpha() - Checks if the string contains alphabetic characters only or not. If yes returns True, otherwise False.
+
+Space is not considered as alphabet character, it will fall in the category of special characters.
+
+
+14) isalnum() - Checks if the string contains alphanumeric characters only or not. If yes returns True, otherwise False.
+
+Characters those are not alphanumeric are: (space) ! # % & ? etc.
+Numerals (0-9), alphabets (A-Z, a-z) will fall into the category of alphanumeric characters.
+
+
+Now, let's understand these methods with small example. Assume there is an string a = "HELLOWORLD123". Observe the output:
+
+print(a.isupper())     # Result: True
+print(a.islower())     # Result: False
+print(a.isalpha())     # Result: False
+print(a.isalnum())     # Result: TrueConsider a string a = "hello python", Let us explore more string methods:
+
+18) startswith(substring) - Checks whether the main string starts with given sub string. If yes it returns True, otherwise False.
+print(a.startswith('h'))  # Result: True
+
+19) endswith(substring) - Checks whether the string ends with the substring or not.
+print(a.endswith('n'))    # Result: True
+
+20) find(substring) - Returns the index of the first occurrence of the substring, if it is found, otherwise it returns -1
+print(a.find('py'))       # Result: 6
+print(a.find('java'))     # Result: -1
+
+21) len() - Returns the length of the string.
+print(len(a))          # Result: 12
+
+
+22) min() - Returns the minimum character in the string
+print(min(a))          # Result: ''
+Here it returns white space because in the given string white space is the minimum of all characters.
+
+23) max() - Returns the maximum character in the string.
+print(max(a))         # Result: y
+
+
+
+
+
+
+
